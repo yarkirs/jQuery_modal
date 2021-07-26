@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>modal_windows</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/material-kit.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container text-center">
+		<button class="btn btn-info" data-girl='Блондинку' data-popup="true">Хочу Блондинку</button>
+		<button class="btn btn-dark" data-girl='Брюнетку' data-popup="true">Хочу Брюнетку</button>
+		<button class="btn btn-warning" data-girl='Рыжую' data-popup="true">Хочу Рыжую</button>
+	</div>		
+
+	<div class="overlay"></div>
+	<div class="popup text-center">
+	<div class="close-btn">&times;</div>
+		<h4>Заказать <span class="girls-type">девушку</span></h4>
+		<form action="#">
+			<input type="text" class="form-control" placeholder="Ваше имя">
+			<input type="text" class="form-control" placeholder="Ваш телефон">
+			<button type="submit" class="btn btn-danger">Заказать <span class="girls-type">девушку</span></button>
+		</form>
+	</div>
+
+
+	
+	
+	
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+	
+</body> 
+</html>	
