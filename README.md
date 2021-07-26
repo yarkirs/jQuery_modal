@@ -1,1 +1,1 @@
-# jQuery_modal
+# jQuery modal windows
